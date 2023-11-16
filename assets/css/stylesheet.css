@@ -12,12 +12,26 @@ text-align:center;
 color:white;
 }
 
-.sunflower-1, .sunflower-2, .sunflower-3 {
+.sunflower-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sunflower-1, .sunflower-2 {
     display: block;
     max-width:800px;
     max-height:400px;
     width:auto;
     height:auto;
+}
+
+.sunflower-3 {
+    max-width: 600px;
+    max-height:200px;
+    width:auto;
+    height:auto;
+    position: fixed;
 }
 
 .image-caption {
@@ -41,12 +55,6 @@ color:white;
 
 a {
     color:#e87f00;
-}
-
-.sunflower-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .image-caption {
@@ -77,7 +85,8 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: darkblue;
+    color: white;
   }
   
   /* Add a background color and some padding around the form */
